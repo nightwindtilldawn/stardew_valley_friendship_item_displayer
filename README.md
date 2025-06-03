@@ -9,10 +9,6 @@ A simple Stardew Valley mod that displays which items can boost friendship with 
 - Tooltip enhancements for quick gifting insight
 - Integrates seamlessly into gameplay without disrupting immersion
 
-## Preview
-
-![Preview Screenshot](./path/to/your/screenshot.png)
-
 ## Installation
 
 1. Install [SMAPI](https://smapi.io/) if you haven’t already.
