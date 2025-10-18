@@ -12,10 +12,10 @@
 	<PropertyGroup>
 		<BundleExtraAssemblies>System</BundleExtraAssemblies>
 		<IgnoreModFilePatterns>
-			^Microsoft.(?!.*(Toolkit.Diagnostics.dll)), <!-- Everyone but MS.Toolkit.Diagnostics-->
-			.*[/\\]Microsoft.*, <!-- CodeDiagnostics in a bunch of languages?-->
+			^Microsoft.(?!.*(Toolkit.Diagnostics.dll)), 
+			.*[/\\]Microsoft.*, 
 			^runtimes[/\\].*,
-			^JetBrains,<!-- Should never be bundled.-->
+			^JetBrains,
 			^Skia <!-- Skiasharp is included with the game-->
 		</IgnoreModFilePatterns>
 	</PropertyGroup>
